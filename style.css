@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+header img {
+    width: 5em;
+    height: auto;
+}
+
+header nav {
+    display: flex;
+    font-size: 1.2em;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header div a button {
+    width: 10em;
+    font-size: 1em;
+    padding: 0.3em;
+}
+
+header nav ul lI {
+    display: inline;
+    margin-left: 10px;
+}
+
+.sessao1 {
+    padding: 20rem;
+    background-image: url(Imagens/Plantas\ \(com\ textura\).png);
+    background-position: center;
+    background-size: cover;
+}
+
+.sessao1 div {
+    margin-top: -150px;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.sessao1 div h1 {
+    font-size: 5em;
+    text-align: center;
+    margin-right: -290px;
+}
+
+.sessao1 div h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-right: -290px;
+}
+
+.sessao1 div hr {
+    width: 4em;
+    height: 10px;
+    background-color: black;
+    border-radius: 12px;
+    margin: 15px 350px;
+}
