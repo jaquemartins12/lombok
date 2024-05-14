@@ -71,5 +71,70 @@ header nav ul lI {
     height: 10px;
     background-color: black;
     border-radius: 12px;
-    margin: 15px 350px;
+    margin: 15px 440px;
+}
+
+.sessao2 {
+    padding: 15rem;
+    text-align: center;
+}
+
+.sessao2 h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.sessao2 hr {
+    width: 4em;
+    height: 6px;
+    background-color: black;
+    border-radius: 12px;
+    margin: 0 auto;
+}
+
+.sessao2 .div-pai {
+    display: flex;
+    justify-content: center;
+}
+
+.div-conteudo {
+    width: 30em;
+    height: 30em;
+    margin-right: 20px;
+    margin-top: 60px;
+}
+
+.div-conteudo img {
+    width: 18em;
+    height: 16em;
+}
+
+.div-conteudo p {
+    font-size: 1.5em;
+}
+
+.sessao2 .linhas-sessao2 {
+    width: 4em;
+    height: 6px;
+    background-color: rgba(0, 0, 0, 0.747);
+    border-radius: 12px;
+    margin: 80px auto;
+}
+
+.sessao3 {
+    padding: 17em;
+    background-image: url(Imagens/Banner02.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.sessao3 h2 {
+    text-align: end;
+    font-size: 2.5em;
+}
+
+.sessao3 div {
+    margin-right: -20px;
+    text-align: justify;
+    font-size: 1.5em;
 }
