@@ -11,7 +11,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(128, 128, 128, 0.377);
+    background-color: transparent;
 
 }
 
@@ -39,6 +39,12 @@ header div a button {
     cursor: pointer;
 }
 
+header div a button:hover {
+    background-color: rgba(151, 150, 150, 0.685);
+    color: rgb(240, 202, 133);
+    transition: 0.9s;
+}
+
 header nav ul lI {
     display: inline;
     margin-left: 10px;
@@ -48,8 +54,15 @@ header nav ul a {
     color: black;
 }
 
+header nav ul a:hover {
+    color: wheat;
+    transition: 0.9s;
+}
+
 .sessao1 {
-    padding: 22rem;
+    margin: 0 10px;
+    margin-top: -8rem;
+    padding: 18rem;
     background-image: url(Imagens/Plantas\ \(com\ textura\).png);
     background-position: center;
     background-size: cover;
@@ -75,10 +88,10 @@ header nav ul a {
 
 .sessao1 div hr {
     width: 4em;
-    height: 10px;
+    height: 6px;
     background-color: black;
     border-radius: 12px;
-    margin: 15px 440px;
+    margin: 15px 455px;
 }
 
 .sessao2 {
@@ -114,6 +127,11 @@ header nav ul a {
     background-color: white;
 }
 
+.div-conteudo:hover {
+    transition: 0.9s;
+    box-shadow: 1px 1px 14px rgb(255, 247, 247);
+}
+
 .div-conteudo img {
     width: 18em;
     height: 16em;
@@ -127,7 +145,7 @@ header nav ul a {
 .sessao2 .linhas-sessao2 {
     width: 4em;
     height: 6px;
-    background-color: rgba(0, 0, 0, 0.747);
+    background-color: rgba(0, 0, 0, 0.918);
     border-radius: 12px;
     margin: 80px auto;
 }
@@ -202,6 +220,12 @@ header nav ul a {
     cursor: pointer;
 }
 
+.sessao4 a button:hover {
+    background-color: rgba(151, 150, 150, 0.685);
+    color: wheat;
+    transition: 0.9s;
+}
+
 footer {
     padding: 3em;
 }
@@ -224,6 +248,12 @@ footer {
     border-radius: 100px;
 }
 
+.icone-footer a i:hover {
+    background-color: white;
+    color:  rgba(24, 24, 56, 0.644);
+    transition: 0.9s;
+}
+
 .div-pai-footer div nav ul {
     display: flex;
     gap: 30px
@@ -236,4 +266,9 @@ footer {
 
 .div-pai-footer div nav ul li a {
     color: black;
+}
+
+.div-pai-footer div nav ul li a:hover {
+    color: rgb(233, 176, 71);
+    transition: 0.9s;
 }
