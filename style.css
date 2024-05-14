@@ -11,7 +11,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: transparent;
+    background-color: rgba(128, 128, 128, 0.377);
+
 }
 
 header img {
@@ -34,6 +35,8 @@ header div a button {
     width: 10em;
     font-size: 1em;
     padding: 0.3em;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 header nav ul lI {
@@ -41,8 +44,12 @@ header nav ul lI {
     margin-left: 10px;
 }
 
+header nav ul a {
+    color: black;
+}
+
 .sessao1 {
-    padding: 20rem;
+    padding: 22rem;
     background-image: url(Imagens/Plantas\ \(com\ textura\).png);
     background-position: center;
     background-size: cover;
@@ -77,6 +84,7 @@ header nav ul lI {
 .sessao2 {
     padding: 15rem;
     text-align: center;
+    background-color: rgba(128, 128, 128, 0.377);
 }
 
 .sessao2 h2 {
@@ -102,6 +110,8 @@ header nav ul lI {
     height: 30em;
     margin-right: 20px;
     margin-top: 60px;
+    box-shadow: 1px 1px 14px black;
+    background-color: white;
 }
 
 .div-conteudo img {
@@ -111,6 +121,7 @@ header nav ul lI {
 
 .div-conteudo p {
     font-size: 1.5em;
+    margin-top: -65px;
 }
 
 .sessao2 .linhas-sessao2 {
@@ -126,15 +137,103 @@ header nav ul lI {
     background-image: url(Imagens/Banner02.png);
     background-position: center;
     background-size: cover;
+    align-items: center;
 }
 
 .sessao3 h2 {
     text-align: end;
     font-size: 2.5em;
+    margin-top: -190px;
+    margin-bottom: 10px;
+}
+
+#div-line {
+    margin-left: 435px;
+    display: flex;
+    justify-content: center;
+}
+
+#div-line hr {
+    width: 2em;
+    height: 6px;
+    background-color: black;
+    border-radius: 12px;
 }
 
 .sessao3 div {
-    margin-right: -20px;
+    width: 25em;
+    height: 5em;
+    margin-left: 450px;
     text-align: justify;
     font-size: 1.5em;
+}
+
+.sessao3 div p {
+    margin-top: -75px;
+}
+
+.sessao4 {
+    padding: 4em;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.377);
+}
+
+.sessao4 h2 {
+    font-size: 2em;
+    margin-bottom: 8px;
+}
+
+.sessao4 p {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.sessao4 input {
+    width: 20rem;
+    height: 3em;
+    background-color: rgba(255, 235, 235, 0.603);
+}
+
+.sessao4 a button {
+    width: 10em;
+    font-size: 1em;
+    padding: 0.3em;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+footer {
+    padding: 3em;
+}
+
+.div-pai-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icone-footer {
+    margin-left: 30px;
+}
+
+.icone-footer a i {
+    font-size: 1em;
+    background-color: rgba(24, 24, 56, 0.644);
+    color: white;
+    padding: 0.4em;
+    border-radius: 100px;
+}
+
+.div-pai-footer div nav ul {
+    display: flex;
+    gap: 30px
+}
+
+.div-pai-footer div {
+    margin-right: 30px;
+    font-size: 1.2em;
+}
+
+.div-pai-footer div nav ul li a {
+    color: black;
 }

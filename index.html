@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOMBOK</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ba099e1f8a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -16,14 +17,14 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="">ABOUT</a>
+                        <a href="#ABOUT">ABOUT</a>
                     </li>
                     <li>
-                        <a href="">ARTICLES</a>
+                        <a href="#ARTICLES">ARTICLES</a>
                     </li>
                 </ul>
             </nav>
-            <a href="">
+            <a href="#SUBSCRIBE">
                 <button>SUBSCRIBE</button>
             </a>
         </div>
@@ -38,7 +39,7 @@
         </div>
     </section>
 
-    <section class="sessao2">
+    <section class="sessao2" id="ARTICLES">
         <h2>LATEST ARTICLES</h2>
         <hr>
 
@@ -63,8 +64,11 @@
         </div>
     </section>
 
-    <section class="sessao3">
+    <section class="sessao3" id="ABOUT">
         <h2>ABOUT</h2>
+        <div id="div-line">
+            <hr>
+        </div>
         <div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas rem ad labore. Voluptatum earum
                 obcaecati quas consectetur deserunt tenetur unde culpa iste. At quasi omnis eum. Rem totam dolore harum.
@@ -76,31 +80,42 @@
         </div>
     </section>
 
-    <section>
+    <section class="sessao4" id="SUBSCRIBE">
         <h2>SUBSCRIBE</h2>
         <p>Sign-up to our newsletter</p>
         <label for=""></label>
-        <input type="text" placeholder="Your email"> <br><br>
+        <input type="text" placeholder="    Your email"> <br><br>
         <a href="">
             <button>SUBMIT</button>
         </a>
     </section>
 
     <footer>
+        <div class="div-pai-footer">
+           <div class="icone-footer">
+            <a href="https://www.instagram.com/">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://twitter.com/i/flow/signup">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="https://pt-br.facebook.com/">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://br.pinterest.com/">
+                <i class="fa-brands fa-pinterest-p"></i>
+            </a>
+        </div>
         <div>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-
             <nav>
                 <ul>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">ARTICLES</a></li>
-                    <li><a href="">SUBSCRIBE</a></li>
+                    <li><a href="#ABOUT">ABOUT</a></li>
+                    <li><a href="#ARTICLES">ARTICLES</a></li>
+                    <li><a href="#SUBSCRIBE">SUBSCRIBE</a></li>
                 </ul>
             </nav>
         </div>
+    </div>
     </footer>
 </body>
 
