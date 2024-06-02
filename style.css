@@ -272,3 +272,283 @@ footer {
     color: rgb(233, 176, 71);
     transition: 0.9s;
 }
+
+
+@media screen and (max-width:480px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: transparent;
+    
+    }
+    
+    header img {
+        width: 2rem;
+        height: auto;
+    }
+    
+    header nav {
+        display: flex;
+        font-size: 0.8rem;
+    }
+    
+    header div {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    header div a button {
+        width: 6.8rem;
+        font-size: 0.8rem;
+        padding: 0.3em;
+        background-color: transparent;
+        cursor: pointer;
+        margin-right: -10px;
+    }
+    
+    header div a button:hover {
+        background-color: rgba(151, 150, 150, 0.685);
+        color: rgb(240, 202, 133);
+        transition: 0.9s;
+    }
+    
+    header nav ul lI {
+        display: inline;
+        margin-left: 10px;
+    }
+    
+    header nav ul a {
+        color: black;
+    }
+    
+    header nav ul a:hover {
+        color: wheat;
+        transition: 0.9s;
+    }
+
+    .sessao1 {
+        margin: 0 10px;
+        margin-top: -79px;
+        padding: 40%;
+        background-image: url(Imagens/Plantas\ \(com\ textura\).png);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .sessao1 div {
+        margin-top: -150px;
+        justify-content: center;
+        margin-left: 50px;
+    }
+    
+    .sessao1 div h1 {
+        font-size: 0.9rem;
+        text-align: center;
+        margin-left: -250px;
+        margin-top: 100px;
+    }
+    
+    .sessao1 div h2 {
+        font-size: 0.9rem;
+        text-align: center;
+        margin-left: -260px;
+    }
+    
+    .sessao1 div hr {
+        width: 4rem;
+        height: 0.2rem;
+        background-color: black;
+        border-radius: 12px;
+        margin: 0 auto;
+    }
+    
+    .sessao2 {
+        padding: 15%;
+        text-align: center;
+        background-color: rgba(128, 128, 128, 0.377);
+    }
+    
+    .sessao2 h2 {
+        font-size: 1rem;
+        margin-top: -35px;
+    }
+    
+    .sessao2 hr {
+        width: 4em;
+        height: 0.2rem;
+        background-color: black;
+        border-radius: 20px;
+        margin: 0 auto;
+    }
+    
+    .sessao2 .div-pai {
+        display: block;
+        justify-content: center;
+    }
+    
+    .div-conteudo {
+        width: 20rem;
+        height: 30rem;
+        margin-right: 20px;
+        margin-top: 60px;
+        box-shadow: 1px 1px 14px black;
+        background-color: white;
+    }
+    
+    .div-conteudo:hover {
+        transition: 0.9s;
+        box-shadow: 1px 1px 14px rgb(255, 247, 247);
+    }
+    
+    .div-conteudo img {
+        width: 100%;
+        height: 16em;
+    }
+    
+    .div-conteudo p {
+        font-size: 1.5em;
+        margin-top: -65px;
+    }
+    
+    .sessao2 .linhas-sessao2 {
+        width: 4em;
+        height: 6px;
+        background-color: rgba(0, 0, 0, 0.918);
+        border-radius: 12px;
+        margin: 80px auto;
+    }
+    
+.sessao3 {
+    padding: 30%;
+    background-image: url(Imagens/Banner02.png);
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+}
+
+.sessao3 h2 {
+    text-align: end;
+    font-size: 1.5rem;
+    margin-top: -100px;
+    margin-bottom: 3px;
+    margin-left: 198px;
+}
+
+#div-line {
+    margin: 0 auto;
+    margin-left: 130px;
+    display: flex;
+    justify-content: center;
+}
+
+#div-line hr {
+    width: 2em;
+    height: 0.2rem;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.sessao3 div {
+    width: 20em;
+    height: 9em;
+    margin-left: 113px;
+    text-align: justify;
+    font-size: 0.69rem;
+}
+
+.sessao3 div p {
+    margin-top: -75px;
+}
+    
+.sessao4 {
+    padding: 4%;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.377);
+}
+
+.sessao4 h2 {
+    font-size: 0.9rem;
+    margin-bottom: 3px;
+}
+
+.sessao4 p {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+
+.sessao4 input {
+    width: 13rem;
+    height: 1.3rem;
+    background-color: rgba(255, 235, 235, 0.603);
+}
+
+.sessao4 a button {
+    width: 8rem;
+    font-size: 0.9rem;
+    padding: 0.3em;
+    height: 1.7rem;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.sessao4 a button:hover {
+    background-color: rgba(151, 150, 150, 0.685);
+    color: wheat;
+    transition: 0.9s;
+}
+
+footer {
+    padding: 4%;
+}
+
+.div-pai-footer {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icone-footer {
+    margin-left: 180px;
+}
+
+.icone-footer a i {
+    font-size: 0.9rem;
+    background-color: rgba(24, 24, 56, 0.644);
+    color: white;
+    padding: 0.4em;
+    border-radius: 100px;
+}
+
+.icone-footer a i:hover {
+    background-color: white;
+    color:  rgba(24, 24, 56, 0.644);
+    transition: 0.9s;
+}
+
+.div-pai-footer div nav ul {
+    display: flex;
+    gap: 30px
+}
+
+.div-pai-footer div {
+    margin-right: 10px;
+    font-size: 1rem;
+}
+
+.div-pai-footer div nav ul li a {
+    color: black;
+}
+
+.div-pai-footer div nav ul li a:hover {
+    color: rgb(233, 176, 71);
+    transition: 0.9s;
+}
+
+.list {
+    margin-top: 15px;
+    margin-left: 90px;
+}
+
+}
